@@ -1,3 +1,4 @@
+# Bu dosyayı tamamen kendi keyfime göre tasarladım. Fikir edinebilirsiniz. Kullanabilirsiniz. Top sizde.
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/tokyo.omp.json" | Invoke-Expression
 Import-Module -Name Terminal-Icons
 Set-Alias -Name apt -Value winget
@@ -6,7 +7,7 @@ Set-Alias -Name Arama -Value Ara
 #Set-Alias -Name indir -Value "yt-dlp -S 'res:1080' -o 'D:\my_folder_location\%(upload_date)s\%(title)s [%(id)s].%(ext)s' -a your_list_of_files.txt"
 cls
 
-
+#winget app download command Turkish.
 function indir {
        param (
         [Parameter(ValueFromRemainingArguments = $true)]
